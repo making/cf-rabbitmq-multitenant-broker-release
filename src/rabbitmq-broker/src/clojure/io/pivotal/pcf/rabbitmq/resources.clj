@@ -172,6 +172,7 @@
     (case s
       "amqp"             false
       "http"             false
+      "https"            true
       "mqtt"             false
       "stomp"            false
       "http/web-mqtt"    false

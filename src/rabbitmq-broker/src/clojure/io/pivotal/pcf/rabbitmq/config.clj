@@ -221,7 +221,7 @@
      (rabbitmq-administrator-uris final-config))
   ([m]
      (mapv
-       #(format "http://%s:%d" % management-ui-port)
+       #(format "https://%s:%d" % management-ui-port)
        (node-hosts m))))
 
 (defn regular-user-tags

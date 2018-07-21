@@ -245,7 +245,7 @@
                  wrap-json-response
                  (wrap-basic-authentication cfg/authenticated?)
                  wrap-request-logging)
-             {:port 4567
+             {:port 8080
               :join? false}))
 
 ;;
